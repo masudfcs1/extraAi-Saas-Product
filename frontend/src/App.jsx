@@ -1,16 +1,10 @@
 import {
   Routes,
   Route,
-  Link,
-  NavLink,
-  useNavigate,
-  useParams,
-  useLocation,
 } from "react-router-dom";
 
 import React from 'react'
 import Home from './pages/Home';
-import Dashboard from "./pages/Dashboard";
 import Layout from "./pages/Layout";
 import WriteArticle from "./pages/WriteArticle";
 import BlogTitle from "./pages/BlogTitle";
@@ -19,6 +13,7 @@ import RemoveBackground from "./pages/RemoveBackground";
 import RemoveObject from "./pages/RemoveObject";
 import ReviewResume from "./pages/ReviewResume";
 import Community from "./pages/Community";
+import Dashboard from "./pages/Dashboard";
 
 export default function App() {
   return (
