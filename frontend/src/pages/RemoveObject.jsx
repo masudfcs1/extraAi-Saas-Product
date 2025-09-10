@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function RemoveObject() {
+const RemoveObject = () => {
   return (
-    <div>
-      RemoveObject
-    </div>
+    <div>RemoveObject</div>
   )
 }
+
+export default RemoveObject

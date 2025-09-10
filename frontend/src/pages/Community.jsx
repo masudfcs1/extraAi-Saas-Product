@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Community() {
+const Community = () => {
   return (
-    <div>
-      Community
-    </div>
+    <div>Community</div>
   )
 }
+
+export default Community

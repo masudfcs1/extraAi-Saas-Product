@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function WriteArticle() {
+const WriteArticle = () => {
   return (
-    <div>
-      WriteArticle
-    </div>
+    <div>WriteArticle</div>
   )
 }
+
+export default WriteArticle

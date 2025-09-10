@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function BlogTitle() {
+const BlogTitle = () => {
   return (
-    <div>
-      Home
-    </div>
+    <div>BlogTitle</div>
   )
 }
+
+export default BlogTitle

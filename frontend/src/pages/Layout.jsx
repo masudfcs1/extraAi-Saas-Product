@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default function Layout() {
+const Layout = () => {
   return (
-    <div>
-      Layout
-    </div>
+    <div> <div>
+         <h1>Layout</h1>
+      <Outlet/>
+    </div></div>
   )
 }
+
+export default Layout

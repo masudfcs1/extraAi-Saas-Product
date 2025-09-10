@@ -10,10 +10,15 @@ import {
 
 import React from 'react'
 import Home from './pages/Home';
-import Layout from "./pages/Layout";
 import Dashboard from "./pages/Dashboard";
+import Layout from "./pages/Layout";
 import WriteArticle from "./pages/WriteArticle";
 import BlogTitle from "./pages/BlogTitle";
+import GenerateImages from "./pages/GenerateImages";
+import RemoveBackground from "./pages/RemoveBackground";
+import RemoveObject from "./pages/RemoveObject";
+import ReviewResume from "./pages/ReviewResume";
+import Community from "./pages/Community";
 
 export default function App() {
   return (
@@ -22,8 +27,13 @@ export default function App() {
       <Route path='/' element={<Home/>} />
       <Route path='/ai' element={<Layout/>}>
            <Route index element={<Dashboard/>} />
-            <Route path="write-article" element={<WriteArticle/>} />
-            <Route path="blog-title" element={<BlogTitle/>} />
+            <Route path='write-article' element={<WriteArticle/>} />
+            <Route path='blog-title' element={<BlogTitle/>} />
+            <Route path='generate-images' element={<GenerateImages/>} />
+            <Route path='remove-background' element={<RemoveBackground/>} />
+            <Route path='remove-object' element={<RemoveObject/>} />
+            <Route path='resume-review' element={<ReviewResume/>} />
+            <Route path='community' element={<Community/>} />
       </Route>
     </Routes>
    </div>

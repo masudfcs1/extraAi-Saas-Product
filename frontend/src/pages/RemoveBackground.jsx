@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function RemoveBackground() {
+const RemoveBackground = () => {
   return (
-    <div>
-      RemoveBackground
-    </div>
+    <div>RemoveBackground</div>
   )
 }
+
+export default RemoveBackground
