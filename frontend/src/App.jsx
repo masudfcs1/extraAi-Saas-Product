@@ -3,7 +3,6 @@ import {
   Route,
 } from "react-router-dom";
 
-import React from 'react'
 import Home from './pages/Home';
 import Layout from "./pages/Layout";
 import WriteArticle from "./pages/WriteArticle";
